@@ -27,3 +27,11 @@ working with JS.
       * Cucumber, Gherkin, WebDriverIO, XPath
     * OOP: .NET, Java
 ***
+## Education
+* **2017 - 2021** National Technical University of Ukraine - Economic cybernetics
+* **2020 - 2021** UCode IT courses
+***
+## Languages
+* ***English*** - B2
+* ***Ukrainian*** - Native
+* ***Russian*** - Native
