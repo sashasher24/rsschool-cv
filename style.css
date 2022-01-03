@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: rgb(34, 42, 48);
     font-family: 'Space Grotesk', sans-serif;
@@ -132,7 +136,13 @@ a:active {
     grid-area: code_section;
 }
 
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+}
+
 #about {
+    height: 700px;
     display: grid;
     color: antiquewhite;
     grid-template-rows:  40% 40% 20%;
@@ -157,18 +167,35 @@ div[id$="_section"] {
     color: darkgrey;
 }
 
+#about h3:hover{
+    top: 10px;
+}
+
+#about h3:hover~div {
+    display: block;
+    position: absolute;
+    top: 60px;
+}
+
 #code_section {
     display: flex;
     justify-content: space-evenly;
 }
 
 #code_section h3 {
+    position: absolute;
     top: 10px;
     left: 10px;
 }
 
-#code_example {
-    /*display: block;*/
+#code_section h3:hover~div {
+    top: 0px;
+}
+
+#code {
+    display: block;
+    position: absolute;
+    top: 0px;
     background: white;
     color: rgb(49, 144, 92);
     height: 90%;
@@ -188,16 +215,6 @@ div[id$="_section"] h3 {
     position: absolute;
     top: 100px;
     left: 120px;
-}
-
-#about h3:hover~div {
-    display: block;
-    position: absolute;
-    top: 60px;
-}
-
-#about h3:hover{
-    top: 10px;
 }
 
 .eng,
