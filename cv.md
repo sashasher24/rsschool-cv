@@ -6,3 +6,6 @@
 * [**LinkedIn**](https://www.linkedin.com/in/oleksandra-sherstiuk-249999a8/)
 * [**GitHub**](https://github.com/sashasher24)
 ***
+## Summary
+Bachelor graduate of KPI - economic cybernetics specialty. Future software engineer
+working with JS.
