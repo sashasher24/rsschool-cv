@@ -135,13 +135,13 @@ a:active {
 #about {
     display: grid;
     color: antiquewhite;
-    grid-template-rows:  40% 40% 20%; /* 3 строки */
-    grid-template-columns: 50% 50%; /* 3 столбца */
+    grid-template-rows:  40% 40% 20%;
+    grid-template-columns: 50% 50%;
     line-height: 30px;
     grid-template-areas: "summary_section education_section" "skills_section lang_section" "code_section code_section"
 }
 
-#about div {
+div[id$="_section"] {
     margin: 0 10px;
 }
 
@@ -155,6 +155,25 @@ a:active {
 
 .skill_name {
     color: darkgrey;
+}
+
+#code_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#code_section h3 {
+    top: 10px;
+    left: 10px;
+}
+
+#code_example {
+    /*display: block;*/
+    background: white;
+    color: rgb(49, 144, 92);
+    height: 90%;
+    overflow: scroll;
+    border: 5px solid rgb(49, 144, 92);
 }
 
 div[id$="_section"]>div {
@@ -171,30 +190,10 @@ div[id$="_section"] h3 {
     left: 120px;
 }
 
-div[id="code_section"] {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-div[id="code_section"] h3 {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
 #about h3:hover~div {
     display: block;
     position: absolute;
     top: 60px;
-}
-
-#code {
-    display: block;
-    background: white;
-    color: rgb(49, 144, 92);
-    height: 90%;
-    overflow: scroll;
-    border: 5px solid rgb(49, 144, 92);
 }
 
 #about h3:hover{
@@ -253,6 +252,28 @@ div[id="code_section"] h3 {
     color: rgb(171, 226, 171);
 }
 
+#usof_project {
+    display: flex;
+}
+
+.project_description,
+.project_img {
+    align-self: center;
+}
+
+.project_img img {
+    height: 500px;
+    width: 800px;
+}
+
+.project_description div {
+    margin: 15px;
+    width: 90%;
+    word-wrap: break-word;
+    color: antiquewhite;
+    line-height: 30px;
+}
+
 #contacts div {
     margin: 50px;
 }
@@ -264,7 +285,7 @@ div[id="code_section"] h3 {
     align-items: center;
 }
 
-.social p {
+.social li {
     position: relative;
     margin: 80px;
 }
@@ -297,4 +318,8 @@ div[id="code_section"] h3 {
     position: absolute;
     top: -10px;
     left: -50px;
+}
+
+footer {
+    display: flex;
 }
