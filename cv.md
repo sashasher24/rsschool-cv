@@ -9,3 +9,21 @@
 ## Summary
 Bachelor graduate of KPI - economic cybernetics specialty. Future software engineer
 working with JS.
+***
+## Skills
+* HTML
+    * Basic knowledge of markup
+* CSS
+    * Basic knowledge of css rules
+    * Grid/Flex
+    * Selectors
+* JS
+    * Knowledge of Core JS
+    * TypeScript rules
+    * ReactJS [*pet project - stackoverflow clone*](https://sashasher24.github.io/)
+* Other
+    * Git
+    * Test automation
+      * Cucumber, Gherkin, WebDriverIO, XPath
+    * OOP: .NET, Java
+***
